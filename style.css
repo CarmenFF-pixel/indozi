@@ -170,6 +170,17 @@ img {
     justify-content: space-between;
 }
 
+.wrap::after {
+    content: "|";
+    animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
 .txt-animation {
     font-size: 2.3rem;
     letter-spacing: 2px;

@@ -83,6 +83,10 @@ nav {
     font-weight: 500;
 }
 
+.form-links a:hover {
+    color: var(--clr-accent);
+}
+
 .menu {
     box-shadow: 0 2px 10px 5px #d2d4d6;
     display: none;
@@ -176,35 +180,6 @@ img {
 .txt-animation span {
     color: var(--clr-accent);
 }
-
-
-/* .dynamic-txt h1 {
-    overflow: hidden;
-    border-right: .15em solid #f29f05;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
-}
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
-    50% {
-        border-color: #f29f05;
-    }
-} */
 
 .container--narrow {
     max-width: 35rem;
@@ -673,6 +648,9 @@ img {
         margin: 2rem;
         width: 35rem;
         text-align: center;
+    }
+    .about img {
+        width: 16rem;
     }
     .about-content h1 {
         font-size: 2rem;
